@@ -1,0 +1,44 @@
+
+body {
+    background-image: url("../images/funky-lines.png");
+}
+
+#bioimage {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+#AJ {
+    background-color: #4aaaa5;
+    color: #fff;
+    width: 25%;
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    float: left;
+}
+
+#contactinfo {
+    text-align: end;
+    background-color: #fff;
+    text-decoration: none; color: #777777;
+    width: 25%;
+    float: right;
+}
+
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    line-height: 100px;
+    margin-top: 0px;
+    margin-left: 145px;
+    text-align: center;
+}
