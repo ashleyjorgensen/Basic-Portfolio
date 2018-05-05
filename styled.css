@@ -1,31 +1,28 @@
-/* Ashley */
+/* Denis */
 
 body {
     background-image: url("../images/funky-lines.png");
-    padding: 0;
-    margin: 0;
-    height: 100%;
 }
 
-#bioimage {
-   float: left;
-   width: 300px;
-   margin: 10px, 20px;
-}
 
 #navbar{
     width: 100%;
     height: 100px;
     background-color: #fff;
-    line-height: 100px;
     margin-top: 0px;
     text-align: center;
-    position: fixed; 
+    position: fixed;
     top: 0;
     left: 0;
+    max-height:96px;
 }
 
-/* My Name */
+#bioimage {
+    float: left;
+    width: 300px;
+    margin:10px, 20px;
+}
+
 #AJ {
     background-color: #4aaaa5;
     color: #fff;
@@ -34,51 +31,47 @@ body {
     float: left;
     margin-left: 75px;
     margin-top: 0px;
-    padding: 5px;
+    padding: 30px;
+
 }
-/* Three top links right */
-#navright {
+
+#contactinfo {
+    text-align: end;
     background-color: #fff;
-    color: #777777;
-    text-decoration: none;
+    text-decoration: none; color: #777777;
     width: 25%;
-    float: right; 
+    float: right;
 }
 
-/* About Me */
-
-#container {
-    margin-top: 150px; 
-    margin-left: 50px;
-}
-
-section {
-    width: 650px;
-    background-color: #fff;
-    height: 300px;
-}
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
 }
 
-#contactinfo {
+ul {
     list-style-type: none;
+
 }
 
 li {
     font-size: 20px;
-    display: inline; 
+    display: inline;
+}
+
+#container {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+section {
+    width: 650px;
+    background-color: white;
+    height: 300px;
 }
 
 #about-text {
-    font-size; 20px;
-    margin: 20px;
-    padding: 20px;
-    height: 500px;
-    width: 500px;
-    background-color: #fff;
+    font-size: 20px;
 }
 
 footer {
