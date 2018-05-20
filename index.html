@@ -5,41 +5,55 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Recommended Homework</title>
+    <title>About: Ashley Jorgensen</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
 </head>
 
 <body>
 
-    <!-- Main Header Div -->
-    <div id="navbar">
-        <h1 id="AJ">Ashley Jorgensen</h1>
-        <div id="navright">
-        <ul id="contact-info"></ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-
-        </div>
-    </div>
+    <!-- Main Header -->
+    <header id="mainhead">
+        <div class="container">
+                <a href="index.html" id="logo">Ashley Jorgensen</a>
+                <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+    </header>
 
     <!-- About Me Section -->
-    <div id="container">
-        <section>
-        <h2>About Me</h2>
-        <hr>
-        <img id="bioimage" src="assets/images/AJ.jpg" alt="Ashley Jorgensen">
-        <p id="about-text">Hi! My name is Ashley Jorgensen, you can call me AJ. I am so excited because this is a new nickname for me.
-            <br> I just got married to my best friend, Sam. We live in Scottsdale, AZ with our two puppies Bandit and Kevin.
-            <br>Most people describe me as a kind, thoughtful, and energetic person. My husband, family, friends, and pups is
-            where I invest my heart.
-            <br>Outside of loved ones I love snowboarding, traveling, camping, fishing, learning, working out, cooking, and shopping.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>About Me</h1>
+            </div>
+        </div>
+    </div>
+    <div id="main-container" class="container">
+        <section class="main-section">
+
+            <img id="bioimage" src="assets/images/AJ.jpg" class="bio-image" alt="Ashley Jorgensen">
+
+            <p>Hi! My name is Ashley Jorgensen, you can call me AJ. I am so excited because this is a new nickname for me. I
+                just got married to my best friend, Sam. We live in Scottsdale, AZ with our two puppies Bandit and Kevin.
+                Most people describe me as a kind, thoughtful, and energetic person. My husband, family, friends, and pups
+                is where I invest my heart. Outside of loved ones I love snowboarding, traveling, camping, fishing, learning,
+                working out, cooking, and shopping.</p>
+
         </section>
+
     </div>
 
-    <!-- Copyright -->
-    <footer>Copyright</footer>
-
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
 </body>
 
 </html>

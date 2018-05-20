@@ -5,48 +5,63 @@
 
 <head> 
     <meta charset="UTF-8">
-    <title>Portfolio Page</title>
-    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
+    <title>Portfolio | Ashley Jorgensen</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
 <!-- Main Header -->
-<div id="navbar">
-        <h1 id="AJ">Ashley Jorgensen</h1>
-        <section id="contactinfo">
-            <a href="index.html" style="text-decoration: none; color: #777777;">About</a>
-            <a href="portfolio.html" style="text-decoration: none; color: #777777;">Portfolio</a>
-            <a href="contact.html" style="text-decoration: none; color: #777777;">Contact</a>
-        </section>
+<header id="mainhead">
+    <div class="container">
+        <a href="index.html" id="logo">Ashley Jorgensen</a> 
+        <nav>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </div>
+</header>
+
+<div id="main-container" class="container">
+    <section class="main-section">
 
 <!-- Portfolio -->
-   <h1>Portfolio</h1>
-    
+<h1>Portfolio</h1>
+
 <!-- Portfolio Items -->
-    <div class="Snowboarding">
-        Snowboarding
+<div class="work">
+    <img src="assets/images/snowboarding.jpg" alt="Snowboarding">
+    <h3>Snowboarding</h3>
+</div>
+
+<div class="work">
+    <img src="assets/images/camping-expert-north-cascade-range-washington-lightweight-tent-0514.jpg" alt="Camping">
+    <h3>Camping</h3>
+</div>
+
+<div class="work">
+    <img src="assets/images/cooking.jpg" alt="Cooking">
+    <h3>Cooking</h3>
+</div>
+
+<div class="work">
+    <img src="assets/images/pilates.jpg" alt="Pilates">
+    <h3>Pilates</h3>
+</div>
+
+<div class="work">
+    <img src="assets/images/puppies.jpg" alt="Puppies">
+    <h3>Puppies</h3>
+</div>
+    </section>
+</div>
+
+<footer>
+    <div class="container">
+        Copyright &copy;
     </div>
-
-    <div class="Camping">
-        Camping
-    </div>
-
-    <div class="Cooking">
-        Cooking
-    </div>
-
-    <div class="Pilates">
-        Pilates
-    </div>
-
-    <div class="Puppies">
-        Puppies
-    </div>
-
-<footer>Copyright</footer>
-
-
+</footer>
 </body>
 </html>
